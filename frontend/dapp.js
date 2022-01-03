@@ -237,6 +237,6 @@ getBetsPerUser.onclick = async () => {
 
   const displayValue = document.getElementById('display-value')
 
-  displayValue.innerHTML = 'Your Bets in Favour: ' + web3.utils.fromWei(betsInFavour.toString()) + ', Your Bets Against: ' + web3.utils.fromWei(betsAgainst.toString());
+  displayValue.innerHTML = 'Your Bets in Favour: ' + (betsInFavour / 10 ** 18) + ', Your Bets Against: ' + (betsAgainst / 10 ** 18);
 
 }
