@@ -5,7 +5,7 @@ This is the prototype of a FIFA2022 prediction market pool. In this version ther
 To participate, users must pick a side and deposit a non-zero amount of ETH.
 
 ### Reporting Results
-In production the results would be reported in a decentralized manner via a custom Chainlink data feed. In this rough draft however, the owner of the prediction market contract is the oracle and must report results manually.
+In production the results would be reported in a decentralized manner via a custom Chainlink data feed. In this rough draft however, the owner of the prediction market contract is the oracle and must report results manually. Please reach out to me if you would like me to call the function!
 
 ### Winnings Distribution and Claim Funds
 The winners will share the loosers deposits in proportion to their own ETH deposits. If one side does not get any bets at all, then everybody gets a refund.
