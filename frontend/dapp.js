@@ -237,7 +237,7 @@ getBetsPerUser.onclick = async () => {
 
   const displayValue = document.getElementById('display-value')
 
-  displayValue.innerHTML = 'Your Bets in Favour: ' + (betsInFavour / 10 ** 18) + 'ETH, Your Bets Against: ' + (betsAgainst / 10 ** 18) + 'ETH';
+  displayValue.innerHTML = 'Your Bets in Favour: ' + (betsInFavour / 10 ** 18) + ', Your Bets Against: ' + (betsAgainst / 10 ** 18);
     
 
 }
