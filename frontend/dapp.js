@@ -229,7 +229,7 @@ getBetsPerUser.onclick = async () => {
   predictionMarketContract.setProvider(window.ethereum);
   var betsInFavour = await predictionMarketContract.methods.betsPerUser(ethereum.selectedAddress, 0).call();
   var betsAgainst = await predictionMarketContract.methods.betsPerUser(ethereum.selectedAddress, 1).call();
-  const displayValue = document.getElementById('display-value')
+  const displayValue = document.getElementById('display-value');
   displayValue.innerHTML = 'Your Bets in Favour: ' + (betsInFavour / 10 ** 18) + ', Your Bets Against: ' + (betsAgainst / 10 ** 18);
 }
 
@@ -241,7 +241,7 @@ getBetsPerSide.onclick = async () => {
   predictionMarketContract.setProvider(window.ethereum);
   var totalBetsInFavour = await predictionMarketContract.methods.bets(0).call();
   var totalBetsAgainst = await predictionMarketContract.methods.bets(1).call();
-  const displayValueSide = document.getElementById('display-value-side')
+  const displayValueSide = document.getElementById('display-value-side');
   displayValueSide.innerHTML = 'Total Bets in Favour: ' + (totalBetsInFavour / 10 ** 18) + ', Total Bets Against: ' + (totalBetsAgainst / 10 ** 18);
 }
 
