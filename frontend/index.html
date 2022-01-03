@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediction Market</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+
+<body>
+  <h1>Will France win the FIFA 2022?</h1>
+  <!-- Connect to MetaMask and display current address-->
+  <div id="mm-detected"></div>
+  <button id="mm-connect">Connect to MetaMask</button>
+  <div id="mm-current-account"></div>
+  <br/>
+  <br/>
+  <br/>
+  <!-- Place bet in favour of France -->
+  <div>
+  <input id="input-box-win" type="number" placeholder="Input bet amount here"/>
+  </div>
+  <button id="input-button-win">YES</button>
+  <!-- Place bet against France -->
+  <div>
+  <input id="input-box-loose" type="number" placeholder="Input bet amount here"/>
+  </div>
+  <button id="input-button-loose">NO</button>
+  <br/>
+  <br/>
+  <br/>
+  <!-- Read from contract -->
+  <div>
+  <button id="bets-per-user">Get My Bets</button>
+  </div>
+  <div id="display-value">Your current bets: </div>
+</body>
+
+<script src="dapp.js"></script>
+
+</html>
