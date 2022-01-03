@@ -11,9 +11,10 @@ In production the results would be reported in a decentralized manner via a cust
 The winners will share the loosers deposits in proportion to their own ETH deposits. If one side does not get any bets at all, then everybody gets a refund.
 
 ### Dependencies
-* OpenZeppelin's JS library npm i @openzeppelin/contracts
-* Web3 JS library npm i web3
-* Truffle Assert for testing npm i truffle-assertions
-* Links and addresses
-* Frontend link = https://finessiano.github.io/blockchain-developer-bootcamp-final-project/frontend/
-* My ETHEREUM address for certification = 0x9eb61768ed41fC7215c08d3aC0ac56F976FbCECE
+* OpenZeppelin's JS library `npm i @openzeppelin/contracts`
+* Web3 JS library `npm i web3`
+* Truffle Assert for testing `npm i truffle-assertions`
+
+### Links and addresses
+* Frontend link = `https://finessiano.github.io/blockchain-developer-bootcamp-final-project/frontend/`
+* My ETHEREUM address for certification = `0x9eb61768ed41fC7215c08d3aC0ac56F976FbCECE`
