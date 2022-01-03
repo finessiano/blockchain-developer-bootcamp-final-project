@@ -1,5 +1,5 @@
 ### Description
-This is the prototype of a FIFA2022 prediction market pool. In this version there is only one pool where users can bet on France, the current champion, winnig or loosing the FIFA2022. My goal is to create a fully functional prediction market platform with plenty of pools and more features, but I realised that I still got a lot to learn while finalizing this project!
+This is the prototype of a FIFA2022 prediction market pool. In this version there is only one pool where users can bet on France, the current champion, winnig or loosing the FIFA2022. My goal is to create a fully functional prediction market platform with plenty of pools and more features, but I realised that I still got a lot to learn while finalizing this project (especially about traditional web development as I entered this course with practically 0 coding background, but frankly I enjoy smart contract programming way much more!)
 
 ### Participate
 To participate, users must pick a side and deposit a non-zero amount of ETH.
