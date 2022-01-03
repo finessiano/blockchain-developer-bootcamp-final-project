@@ -247,5 +247,11 @@ getBetsPerSide.onclick = async () => {
 
   displayValueSide.innerHTML = 'Total Bets in Favour: ' + (totalBetsInFavour / 10 ** 18) + ', Total Bets Against: ' + (totalBetsAgainst / 10 ** 18);
     
+const claiming = document.getElementById('claim-funds');
 
+claiming.onclick = async () => {
+  var web3 = new Web3(window.ethereum);
+  const predictionMarketContract = new web3.eth.Contract(predictionMarketAddressABI, predictionMarketAddress);
+  predictionMarketContract.setProvider(window.ethereum);
+  await predictionMarketContract.methods.claimFunds().send({from: ethereum.selectedAddress});
 }
