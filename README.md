@@ -15,5 +15,5 @@ The winners will share the loosers deposits in proportion to their own ETH depos
 * Web3 JS library npm i web3
 * Truffle Assert for testing npm i truffle-assertions
 * Links and addresses
-* Frontend link =
+* Frontend link = https://finessiano.github.io/blockchain-developer-bootcamp-final-project/frontend/
 * My ETHEREUM address for certification = 0x9eb61768ed41fC7215c08d3aC0ac56F976FbCECE
